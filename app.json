@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "toDo_List_App",
+    "slug": "toDo_List_App",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.todolistapp",
+      "googleServicesFile": "./android/app/google-services.json"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": "true"
+        }
+      ]
+    ]
+  }
+}
